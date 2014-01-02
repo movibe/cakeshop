@@ -12,7 +12,7 @@ class UsersController extends AppController {
 ////////////////////////////////////////////////////////////
 
 	public function login() {
-
+		// Gerar Senha
 		// echo AuthComponent::password('admin');
 
 		if ($this->request->is('post')) {
